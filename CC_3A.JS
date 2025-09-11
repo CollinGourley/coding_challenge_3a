@@ -10,3 +10,11 @@
             email:"Epollock@verizon.net",
             purchases:["Fork", "Knife", "Spoon"]},];
         console.log(Customers);
+//Create Customer Records
+   Customers.push({
+    name:"Anabelle",
+    email:"Afait@verizon.net",
+    purchases:["Phone", "Charger", "Airpods"]
+   });
+   Customers.shift();
+   console.log(customers);
